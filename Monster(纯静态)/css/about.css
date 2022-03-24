@@ -1,0 +1,172 @@
+body{
+    background-color: #f7f7f7;
+}
+/*页头*/
+#cover{
+    float: none;
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    margin-top: -10px;
+    height: 280px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 1px 8px #C9C9C9;
+}
+#menu{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+}
+#avatar{
+    position: relative;
+    left: 10%;
+    top: 20%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #555;
+    background-image: url("../images/logo.jpg");
+    background-size: 100% 100%;
+}
+#abm{
+    position: relative;
+    left: 32%;
+    top: -55%;
+    width: 45%;
+    height: 75%;
+}
+#home{
+    position: relative;
+    width: 10%;
+    height: 20%;
+    top: -130%;
+    left: 80%;
+    background-color: #946ce6;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+#home span{
+    position: relative;
+    top: 25%;
+    font-size: 16px;
+    color: #fff;
+}
+#SelectItem{
+    position: relative;
+    top: 23%;
+    width: 100%;
+    height: 25%;
+}
+#SelectItem li{
+    float: left;
+    margin-left: 30px;
+    height: 37px;
+    width: 45px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: #000 solid 1px;
+    transition: all 0.5s;
+}
+#SelectItem li:hover{
+    transition: all 0.5s;
+    color: #946ce6;
+    border-bottom: #946ce6 solid 1px;
+}
+/*内容块1*/
+#content_1{
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 65%;
+    height: 1300px;
+}
+#content_1 h2{
+    color: #555;
+    margin-left: 48%;
+}
+#content_1 p{
+    width: 75%;
+    margin-left: 13%;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 1em;
+}
+hr{
+    margin: auto;
+    width: 80%;
+    border: 0;
+    background: #555;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    opacity: 0.3;
+}
+#cut{
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: #eee 1px solid;
+}
+
+/*内容块2*/
+#content_2{
+   margin-left: 21%;
+    margin-top: 3%;
+    width: 65%;
+    height: 1800px;
+}
+#content_2 h3{  color: #555;
+    margin-left: 42%; font-size: 25px; }
+
+#neirong{ width: 65%;
+    margin-left: 13%;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #555;
+    }
+#hengxian{ border-bottom:rgb(184, 181, 181) 1px solid; width:65%; margin-top: 2%; margin-left: 13%;}
+#content_2 p2{
+    margin-left: 43%;
+    width: 65%;
+    font-size: 17px;
+    font-weight: 350;
+    color: #555;
+    line-height: 37px;
+   position: relative;
+   left: -260px;
+}
+#biaoge{
+    margin-left: 13%;
+    margin-top: 5%;
+    text-align: center;
+}
+#name{
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+
+/*内容块3*/
+#content_3{
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 70%;
+    height: 500px;
+}
+/*页脚*/
+#foot{
+    margin: auto;
+    height: 30px;
+    width: 450px;
+    text-align: center;
+}
+
+
+
+

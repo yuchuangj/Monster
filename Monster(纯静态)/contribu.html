@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/contribu.css" rel="stylesheet">
+    <script src="js/index.js"></script>
+    <title>投稿</title>
+    <style>
+        .clock {
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            background: url(images/clock.jpg) no-repeat;
+            border: 2px solid rgb(255, 90, 90);
+            position: relative;
+            margin-top: 5%;
+            left: 10px;
+        }
+        
+        .clock div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        #hours {
+            background: url(images/hour.png) no-repeat center center;
+        }
+        
+        #minutes {
+            background: url(images/minute.png) no-repeat center center;
+        }
+        
+        #seconds {
+            background: url(images/second.png) no-repeat center center;
+        }
+        
+        #nowTime {
+            font-size: 40px;
+            top: 650px;
+            left: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <!--页头-->
+        <div id="nav">
+            <br>
+            <h1 style="font-size: 60px;">知妖</h1>
+            <p class="t2">收集中国古今妖怪</p>
+            <div id="slant-left"></div>
+            <div id="slant-right"></div>
+            <ul class="cent">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="list.html">目录</a></li>
+                <li><a href="contribu.html">投稿</a></li>
+                <li><a href="yt.html">夜谭</a></li>
+                <li><a href="about.html">关于</a></li>
+            </ul>
+        </div>
+        <!--内容-->
+        <div id="content">
+            <span id="s1" style="display: block; position: relative; left: 10px;">这是一个时钟效果！</span>
+            <div class="clock">
+                <div id="hours"></div>
+                <div id="minutes"></div>
+                <div id="seconds"></div>
+                <div id="nowTime">00:00:00</div>
+            </div>
+
+            <!--这是时钟JS-->
+            <script>
+                var h = document.getElementById('hours');
+                var m = document.getElementById('minutes');
+                var s = document.getElementById('seconds');
+                var nt = document.getElementById('nowTime');
+
+                function clock() {
+                    var now = new Date();
+                    var hours = now.getHours();
+                    var minutes = now.getMinutes();
+                    var seconds = now.getSeconds();
+                    var mseconds = now.getMilliseconds();
+                    s.style.transform = "rotate(" + 6 * (seconds + mseconds / 1000) + "deg)";
+                    m.style.transform = "rotate(" + 6 * (minutes + seconds / 60) + "deg)";
+                    h.style.transform = "rotate(" + 30 * (hours + minutes / 60) + "deg)";
+                    nowTime.innerHTML = "当前时间：" + two(hours) + ":" + two(minutes) + ":" + two(seconds);
+                }
+
+                function two(num) {
+                    if (num < 10) {
+                        num = "0" + num;
+                    }
+                    return num;
+                }
+                clock();
+                setInterval(clock, 30);
+            </script>
+        </div>
+        <!--页脚-->
+        <div id="foot">
+            <div id="cut"></div>
+            <div id="peo">
+                <h3><span>JS期末作业</span></h3>
+                <ul>
+                    <li>真的好难好难</li>
+                </ul>
+            </div>
+            <div id="friend">
+                <h3><span>友链</span></h3>
+                <ul>
+                    <li><a href="http://www.cthulhu.net.cn/index.html">克苏鲁百科</a></li>
+                    <li><a href="http://www.daizhige.org/">殆知阁</a></li>
+                </ul>
+            </div>
+            <div id="ret">
+                <div id="top">
+                    <a href="#nav">top</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
