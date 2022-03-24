@@ -1,0 +1,279 @@
+#content {
+    width: 100%;
+    height: 1200px;
+    margin-top: 5%;
+}
+
+#y2 {
+    width: 100%;
+    margin: auto;
+    border-top: #eee 1.2px solid;
+}
+
+#y2 h1 {
+    margin: auto;
+    background: #FFF;
+    position: relative;
+    top: -22px;
+    padding: 0px 20px;
+    display: table;
+    font-weight: 700;
+    color: #555
+}
+
+#s1 {
+    color: darkgray;
+    font-weight: 600;
+}
+
+#s2 {
+    width: 100%;
+    position: relative;
+    left: 300px;
+}
+
+#date {
+    border: 1px solid rgb(168, 168, 168);
+    width: 40px;
+    float: left;
+    margin-top: 2%;
+}
+
+#day {
+    background: #ffe691;
+    color: #ae8f23;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+#month {
+    background: #eee;
+    border-top: 1px solid #e5e5e5;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#year {
+    background: #fff;
+    border: 1px solid #eee;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+}
+
+#a1 {
+    font-size: 28px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-weight: 700;
+}
+
+#a1 a {
+    text-decoration: none;
+    color: #555;
+}
+
+#a2 {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    color: darkgray;
+}
+
+#a3 {
+    position: relative;
+    left: 170px;
+    top: -10px;
+    transition: all 0.3s;
+}
+
+#a3:hover {
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    color: #777;
+    transition: all 0.3s ease;
+}
+
+#contes {
+    width: 400px;
+    height: 500px;
+    display: none;
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    border-radius: 15px;
+    opacity: 0.8;
+    transition: all 0.6s;
+    box-shadow: 0 0 20px rgba(216, 76, 41, 1);
+    padding: 3px 0 3px 3px;
+    margin: 5px 1px 3px 0;
+    border: rgba(216, 76, 41, 1) 1px solid;
+    background: linear-gradient(to top left, #243949, #517fa4)
+}
+
+#img1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: relative;
+    left: 150px;
+    margin-top: 20px;
+    transition: 1s linear;
+}
+
+#img1 :hover {
+    display: inline-block;
+    transform: scale(1.2) rotate(45deg);
+}
+
+#c1 {
+    position: relative;
+    top: 120px;
+    left: -100px;
+    width: 200px;
+    height: 25px;
+    background: linear-gradient(to right, yellow, rgb(0, 183, 255))
+}
+
+#c2 {
+    position: relative;
+    top: 20px;
+    left: -30px;
+    color: honeydew;
+}
+
+#c3 {
+    position: relative;
+    top: 19px;
+    left: -10px;
+    height: 18px;
+    width: 175px;
+}
+
+#c4 {
+    position: relative;
+    top: 60px;
+    left: -30px;
+    height: 18px;
+    width: 252px;
+}
+
+#c5 {
+    position: relative;
+    top: 36px;
+    left: 130px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+#c5:hover {
+    color: indigo;
+    font-size: 500;
+}
+
+#c6 {
+    position: relative;
+    top: 100px;
+    left: -30px;
+    font: 700;
+    color: darkgray;
+}
+
+#c11 {
+    position: relative;
+    top: 150px;
+    left: -5px;
+    background: linear-gradient(to right, yellow, rgb(0, 195, 255));
+    width: 200px;
+    height: 25px;
+}
+
+#s3 {
+    width: 100%;
+    position: relative;
+    left: 300px;
+    margin-top: 5%;
+}
+
+#s4 {
+    width: 100%;
+    position: relative;
+    left: 0px;
+    margin-top: 5%;
+}
+
+#s5 {
+    width: 100%;
+    position: relative;
+    left: 0px;
+    margin-top: 5%;
+}
+
+#s6 {
+    width: 100%;
+    position: relative;
+    left: 0px;
+    margin-top: 5%;
+}
+
+#s7 {
+    width: 100%;
+    position: relative;
+    left: 0px;
+    margin-top: 5%;
+}
+
+#s8 {
+    width: 100%;
+    position: relative;
+    left: 0px;
+    margin-top: 5%;
+}
+
+#pg {
+    height: 100px;
+    width: 100%;
+    margin: 80px 0;
+    position: relative;
+    left: -260px;
+}
+
+#pg span {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 3%;
+    color: darkgrey;
+    position: relative;
+    left: -40px;
+}
+
+#box {
+    width: 80%;
+    height: 31px;
+    margin-left: 31%;
+}
+
+#pg li {
+    list-style: none;
+    float: left;
+    width: 80px;
+    text-align: center;
+    margin-left: 8%;
+    line-height: 35px;
+    border-bottom: 3px solid #eee;
+    border-top: 1px solid #eee;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}

@@ -1,0 +1,290 @@
+#y1{
+    width: 100%;
+    height: 1500px;
+    margin-top: 5%;
+    
+}
+#y2{
+    width: 100%;
+    margin:auto;
+	border-top:#eee 1.2px solid;	
+}
+#y2 h1{
+	margin:auto;
+	background:#FFF;
+	position:relative;
+	top:-22px;
+	padding:0px 20px;
+	display:table;
+	font-weight:700;
+	color:#555
+}
+#s1{
+    color: darkgray;
+    font-weight: 600;
+}
+#s2{ 
+    width: 100%;
+
+    position: relative;
+    left: 300px;
+}
+#date{
+    border: 1px solid rgb(168, 168, 168);
+    width: 40px;
+    float: left;
+    margin-top: 3%;
+}
+#day{
+    background: #ffe691;
+    color: #ae8f23;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    text-align: center;
+}
+#month{
+    background: #eee;
+    border-top: 1px solid #e5e5e5;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+#year{
+    background: #fff;
+    border: 1px solid #eee;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+}
+
+#s3 img{ 
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#s4{
+    position: relative;
+    top: -100px;
+    left: 0px;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+#s6{ position: relative;
+    top:-75px; left: 119px;}
+#s6:hover{ width: 90px; 
+    height: 90px; 
+    background-color: white;
+    border-radius: 10px;
+    color: #777;
+    transition: all 0.3s ease;
+}
+#s11:hover{ width: 90px; 
+    height: 90px; 
+    background-color: white;
+    border-radius: 10px;
+    color: #777;
+  
+    transition: all 0.3s ease;
+}
+#s16:hover{ width: 90px; 
+    height: 90px; 
+    background-color: white;
+    border-radius: 10px;
+    color: #777;
+    transition: all 0.3s ease;
+}
+#s21:hover{ width: 90px; 
+    height: 90px; 
+    background-color: white;
+    border-radius: 10px;
+    color: #777;
+    transition: all 0.3s ease;
+}
+#s26:hover{ width: 90px; 
+    height: 90px; 
+    background-color: white;
+    border-radius: 10px;
+    color: #777;
+    transition: all 0.3s ease;
+}
+#s31:hover{ width: 90px; 
+    height: 90px; 
+    background-color: white;
+    border-radius: 10px;
+    color: #777;
+    transition: all 0.3s ease;
+}
+#s36:hover{ width: 90px; 
+    height: 90px; 
+    background-color: white;
+    border-radius: 10px;
+    color: #777;
+    transition: all 0.3s ease;
+}
+
+
+    #s7{ 
+        width: 100%;
+        position: relative;
+        left: 300px;
+    }
+    #s8 img{ 
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    #s9{
+        position: relative;
+        top: -100px;
+        left: 0px;
+        font-weight: 800;
+        font-size: 28px;
+    }
+   
+    #s11{ position: relative;
+        top:-75px; left: 90px;}
+
+        #s12{ 
+            width: 100%;
+        
+            position: relative;
+            left: 300px;
+        }
+        #s13 img{ 
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+        #s14{
+            position: relative;
+            top: -95px;
+            left: 0px;
+            font-weight: 800;
+            font-size: 28px;
+        }
+      
+        #s16{ position: relative;
+            top:-63px; left: 33px;}
+
+            #s17{ 
+                width: 100%;
+    
+                position: relative;
+                left: 300px;
+            }
+            #s18 img{ 
+                padding-left: 30px;
+                padding-top: 30px;
+            }
+            #s19{
+                position: relative;
+                top: -95px;
+                left: 0px;
+                font-weight: 800;
+                font-size: 28px;
+            }
+           
+            #s21{ position: relative;
+                top:-70px; left: 152px;}
+
+                #s22{ 
+                    width: 100%;
+        
+                    position: relative;
+                    left: 300px;
+                }
+                #s23 img{ 
+                    padding-left: 30px;
+                    padding-top: 30px;
+                }
+                #s24{
+                    position: relative;
+                    top: -95px;
+                    left: 0px;
+                    font-weight: 800;
+                    font-size: 28px;
+                }
+               
+                #s26{ position: relative;
+                    top:-70px; left: 235px;}
+
+                    #s27{ 
+                        width: 100%;
+            
+                        position: relative;
+                        left: 300px;
+                    }
+                    #s28 img{ 
+                        padding-left: 30px;
+                        padding-top: 30px;
+                    }
+                    #s29{
+                        position: relative;
+                        top: -95px;
+                        left: 0px;
+                        font-weight: 800;
+                        font-size: 28px;
+                    }
+                    
+                    #s31{ position: relative;
+                        top:-70px; left: 58px;}
+
+                        #s32{ 
+                            width: 100%;
+                
+                            position: relative;
+                            left: 300px;
+                        }
+
+                        #s33 img{ 
+                            padding-left: 30px;
+                            padding-top: 30px;
+                        }
+                        #s34{
+                            position: relative;
+                            top: -85px;
+                            left: 0px;
+                            font-weight: 800;
+                            font-size: 28px;
+                        }
+                        
+                        #s36{ position: relative;
+                            top:-50px; left: -24px;}
+
+
+                            #pg{
+                                height: 100px;
+                                width: 100%;
+                                margin: 80px 0;
+                            }
+                            #pg span{
+                                text-align: center;
+                                font-size: 17px;
+                                font-weight: 300;
+                                display: block;
+                                margin-bottom: 3%;
+                                color: darkgrey;
+                            }
+                            #box{
+                                width: 80%;
+                                height: 31px;
+                                margin-left: 35%;
+                            }
+                            #pg li{
+                                list-style: none;
+                                float: left;
+                                width: 80px;
+                                text-align: center;
+                                margin-left: 8%;
+                                line-height: 35px;
+                                border-bottom: 3px solid #eee;
+                                border-top: 1px solid #eee;
+                                transition: all 0.5s ease;
+                                cursor: pointer;
+                            }
+
+
+
+
+

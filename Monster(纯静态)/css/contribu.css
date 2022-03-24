@@ -1,0 +1,17 @@
+#content{
+    margin: auto;
+    width: 80%;
+    height: 900px;
+    background: linear-gradient(rgb(214, 146, 146),yellow);
+   
+}
+#s1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    left: 440px;
+    
+}
+
+

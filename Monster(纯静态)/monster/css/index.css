@@ -1,0 +1,167 @@
+/*页头*/
+
+#main{
+    width: 100%;
+    margin: auto;
+}
+#nav{
+    width: 104%;
+    margin-left: -3%;
+    margin-top: -40px;
+    height: 400px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+#slant-left{
+    background: #fff;
+    width: 100%;
+    position: relative;
+    bottom: -120px;
+    right: 48%;
+    height: 300px;
+    transform: rotate(5deg);
+}
+#slant-right{
+    background: #fff;
+    width: 100%;
+    position: relative;
+    bottom: 180px;
+    left: 48%;
+    height: 300px;
+    transform: rotate(-5deg);
+}
+.t2{
+    font-size: 16px;
+    font-style: italic;
+    line-height: 0px;
+    margin-bottom: -20px;
+}
+.cent{
+    margin: auto;
+    width: 420px;
+    margin-top: -520px;
+}
+.cent li{
+    height: 30px;
+    float: left;
+    padding-left: 20px;
+    list-style: none;
+}
+.cent li a{
+    padding: 7px 14px 7px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.cent li a:hover{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    color: #777;
+    transition: all 0.3s ease;
+}
+
+/*页脚*/
+#foot{
+    width: 100%;
+    margin-top: 5%;
+}
+#cut{
+    border-top: 1px solid #eee;
+}
+#peo{
+    float: left;
+    margin-top: 1%;
+    margin-left: 13%;
+    width: 35%;
+}
+#peo h3{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+#peo span{
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+#peo li{
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    color: #777;
+}
+#friend{
+    float: left;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 35%;
+}
+#friend h3{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+#friend span{
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+#friend li{
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+}
+#friend li a{
+    color: #777;
+    text-decoration: none;
+}
+#friend li a:hover{
+    transition: all 0.5s ease-in-out;
+    color: black;
+}
+#ret{
+    background-color: black;
+    width: 104%;
+    height: 50px;
+    margin-left: -3%;
+    margin-top: 120px;
+    overflow: hidden;
+}
+#top{
+    text-align: center;
+    margin-left: 45%;
+    margin-top: -0.3%;
+    height: 30px;
+    width: 8%;
+    border-radius: 4px;
+    background-color: white;
+}
+#top a{
+    font-weight: 900;
+    color: #777;
+    text-decoration: none;
+}
+#top a:hover{
+    transition: all 0.5s ease-in-out;
+    color: black;
+}
+
+/*双线*/
+#zy{
+    width: 100%;
+    margin:auto;
+    border-top: 1px solid #eee;
+    padding-bottom: 10px;
+}
+#zy h2{
+    margin: auto;
+    background: #fff;
+    position: relative;
+    top: -20px;
+    padding:0px 20px;
+    display: table;
+    color: #555;
+    font-weight: 600;
+}

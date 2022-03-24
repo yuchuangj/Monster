@@ -1,0 +1,47 @@
+#content{
+    margin-top: 5%;
+    width: 100%;
+}
+#date{
+    width: 30%;
+    padding-left: 23%;
+    margin: auto;
+}
+#content #page{
+    width: 60%;
+    margin: auto;
+}
+#page h1{
+    font-size: 40px;
+}
+#page p{
+    color: #555;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 1em;
+}
+#page hr{
+    border: 0;
+    background: #eee;
+    height: 1px;
+    margin: 30px 0;
+}
+#page a{
+    text-decoration: none;
+}
+#good{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #06c;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 55px;
+    margin: auto;
+    background-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#good:hover{
+    transition: all 0.5s;
+    background-color: #06c;
+}
