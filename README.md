@@ -1,11 +1,9 @@
-### Monster
-PC端妖怪网站
+# Monster
 
-### 采用的技术
-纯静态页面 加点JS动画效果
-使用VSC工具编写
+### Adopted technology
+Use HTML CSS JavaScript to implement a demon page
 
-### 项目结构
+### Project structure
 ```
 index.html首页 ---- yt.html夜谭 ---- contribu.html大时钟界面  
 ---- about.html关于我们  ---- list.html目录 ---- template模板
