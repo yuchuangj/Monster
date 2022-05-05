@@ -1,7 +1,9 @@
 # Monster
 
 ### Adopted technology
+```
 Use HTML CSS JavaScript to implement a demon page
+```
 
 ### Project structure
 ```
